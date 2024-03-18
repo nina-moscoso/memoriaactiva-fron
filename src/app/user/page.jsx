@@ -1,5 +1,6 @@
 import React from 'react'
 import '../user/user.css'
+
 export default function user() {
   return (
     <>

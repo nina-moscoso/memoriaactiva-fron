@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    margin: 10px;
+   
+    background-image: url('/reloj.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contenidoAlert{
+    max-width: 500px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px ;
+    text-align: left;
+}
+.contenido .tituloAlert{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+}
